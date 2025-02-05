@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Alumni Networking Platform</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: white;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: none;
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .animated-text {
+            animation: fadeInUp 1.5s;
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="mb-4 animated-text">Welcome to the Alumni Networking Platform</h1>
+        <p class="lead animated-text">Bridging the gap between students and alumni for mentorship, growth, and success.</p>
+        
+        <div class="row mt-5">
+            <div class="col-md-6 mb-4">
+                <div class="card p-4 shadow">
+                    <h3>Easy Connecting Features</h3>
+                    <p>Seamless networking with a smart search, chat, and video call integration.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card p-4 shadow">
+                    <h3>Categorized Approach</h3>
+                    <p>Find mentors and peers based on expertise, interests, and career paths.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card p-4 shadow">
+                    <h3>Campus Life Management</h3>
+                    <p>Stay updated on campus events, clubs, and opportunities to enhance student life.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card p-4 shadow">
+                    <h3>Mental Health Management</h3>
+                    <p>Access resources and support systems to maintain well-being and balance.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
